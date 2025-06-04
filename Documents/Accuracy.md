@@ -1,9 +1,7 @@
 # Model Evaluation and Accuracy Interpretation
 
-Below is a human‐friendly, detailed interpretation of the model’s reported accuracy (0.8635) based on the classification report output. You can copy this directly into your GitHub README or documentation.
 
-
-## 1. Classification Report (Snapshot)           
+## 1. Classification Report    
 precision    recall  f1‐score   support
     0         0.92      0.90      0.91    118040
     1         0.68      0.73      0.71     34123
@@ -12,7 +10,6 @@ accuracy                          0.86    152163
 
 ---
 
-## 2. What Does “Accuracy: 0.8635” Mean?
 
 - **Overall Accuracy = 0.8635 (86.35 %)**  
   - This number tells us that out of all the URLs in the test set (15,2163 examples), the model correctly classified about 86.35 % of them. In other words, if you randomly pick one URL from the held‐out test set, there’s an 86.35 % chance that our Random Forest detector will label it correctly (benign vs. malicious).
