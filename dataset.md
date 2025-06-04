@@ -1,6 +1,7 @@
-•	Type: Secondary
-•	Source: Kaggle dataset (phishing_site_urls_2.csv) 
-•	507208 URL included Malicious and Benign
-•	There are two columns.
-•	Labeled 1 is malicious
-•	Labeled 0 is Benign
+
+• Type: Secondary  
+• Source: Kaggle dataset (`phishing_site_urls_2.csv`)  
+• 507 208 URLs (malicious + benign)  
+• Two columns (`URL`, `Label`)  
+• Label 1 → malicious  
+• Label 0 → benign  
