@@ -47,8 +47,7 @@ accuracy                          0.86    152163
 ---
 
 
-1. **Why 86.35 % Is Meaningful**  
-   - An accuracy of 86.35 % is a strong indicator that, overall, the model can correctly distinguish between benign and malicious URLs most of the time.  
+ An accuracy of 86.35 % is a strong indicator that, overall, the model can correctly distinguish between benign and malicious URLs most of the time.  
    - Given the imbalance (more benign than malicious samples), a naive “always-predict-benign” classifier would achieve about 77.6 % accuracy (118,040 / 152,163). This Random Forest model outperforms that baseline by a significant margin (86.35 % vs. 77.6 %).
 
 ---
