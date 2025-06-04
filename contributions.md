@@ -1,8 +1,10 @@
 # Contributions
 
-* Curated and cleaned a labeled URL dataset.  
-* Engineered discriminative features (URL length, digit count, keyword presence, etc.).  
-* Split the data 70 % / 30 % for training and testing.  
-* Trained a **Random Forest** classifier with class‑balancing.  
-* Evaluated the model and tuned hyperparameters for higher accuracy.  
-* Added visual diagnostics and a simple test interface for end‑users.
+1.	Explored and prepared the dataset containing labeled URLs.
+2.	Performed data preprocessing, including null value removal and deduplication.
+3.	Engineered features like URL length, digit count, presence of keywords, etc.
+4.	Split data into70% for training and 30% for testing.
+5.	Train the dataset with Random Forest model for classification.
+6.	Evaluated the model and performed initial tuning to improve accuracy. (Put weight to balance) 
+7.	Integrated visualization and basic user interface for practical testing
+

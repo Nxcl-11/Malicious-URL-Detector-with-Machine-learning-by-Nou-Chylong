@@ -1,4 +1,3 @@
 # Societal and Industrial Impact
 
-With the rapid advancement of technology, cyber‑threats have become pervasive. Phishing attacks, malware, and deceptive websites exploit unsuspecting users, leading to identity theft, data breaches, and financial losses.  
-This project delivers a machine‑learning–based malicious URL detector designed to give individuals and organizations a proactive shield against such evolving threats.
+Due to rapid technological advancement, cyber threats have grown alarmingly. Phishing attacks, malware, and malicious websites pose significant risks, often hidden behind deceptive URLs. These threats lead to identity theft, data breaches, and financial loss. This project aims to counteract these issues by developing a machine learning-based malicious URL detector to protect users and institutions.

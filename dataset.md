@@ -1,8 +1,7 @@
-# Dataset
 
-* **Type:** Secondary (public)  
-* **Source:** Kaggle – `phishing_site_urls_2.csv`  
-* **Size:** 549 358 URLs (malicious & benign)  
-* **Schema:**  
-  * `URL` – the hyperlink string.  
-  * `Label` – 1 = malicious, 0 = benign.
+• Type: Secondary  
+• Source: Kaggle dataset (`phishing_site_urls_2.csv`)  
+• 507 208 URLs (malicious + benign)  
+• Two columns (`URL`, `Label`)  
+• Label 1 → malicious  
+• Label 0 → benign  
