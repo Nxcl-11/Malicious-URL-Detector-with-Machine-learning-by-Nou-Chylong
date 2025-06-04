@@ -7,7 +7,7 @@ model = joblib.load("url_detector_model.pkl")
 
 
 
-url = input("Enter a URL to check: ")
+url = input("Enter URL: ")
 features = extract_features(url)
 
 prediction = model.predict(pd.DataFrame([features]))[0]
