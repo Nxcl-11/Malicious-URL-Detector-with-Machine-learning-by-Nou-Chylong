@@ -8,7 +8,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import (classification_report, confusion_matrix, accuracy_score,precision_score, recall_score, f1_score, log_loss, roc_auc_score,RocCurveDisplay)
 import joblib
 
-# Load and Preprocess Dataset
+#Load and Preprocess Dataset
 df = preprocess_data('Dataset/phishing_site_urls_2.csv')
 print(f"Loaded {len(df)} URLs\n")
 
@@ -16,7 +16,7 @@ print(f"Loaded {len(df)} URLs\n")
 def extract_features(url):
     url = url.lower()  # lowercase for consistency
 
-    # Extract domain part
+    #Extract domain part
     domain = url.split('/')[0]
 
     return {
@@ -30,7 +30,7 @@ def extract_features(url):
             'login', 'verify', 'update', 'secure', 'account', 'bank', 'webscr', 'signin'
         ])),
 
-        # 🔥 New Features
+        # New Features
         'is_exe_file': int(url.endswith('.exe')),  # common malicious pattern
         'domain_length': len(domain),
         'tld_is_suspicious': int(url.endswith(('.xyz', '.ru', '.tk', '.top', '.info')))  # risky TLDs
