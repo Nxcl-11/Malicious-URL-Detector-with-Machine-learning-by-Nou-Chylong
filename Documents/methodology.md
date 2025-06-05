@@ -28,7 +28,7 @@ Features were extracted using regular expressions and logical rules from URLs. E
 - Missing values were checked and confirmed to be zero.
 
 ### 5. Feature Scaling with Z-Score
-The predictor variables were standardized using the Z-score method to normalize feature values and ensure balanced influence across features.
+The predictor variables standardized using the Z-score method to normalize feature values and ensure balanced influence across features.
 
 ### 6. Train-Test Split
 The dataset was split into training and testing sets using a 70/30 ratio. The `random_state` was set to ensure reproducibility.
