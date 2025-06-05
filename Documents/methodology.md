@@ -52,3 +52,5 @@ A confusion matrix was plotted using Seaborn to visualize performance in terms o
 
 ### 10. ROC Curve
 A ROC Curve was plotted using Scikit-learn's `RocCurveDisplay` to evaluate the model's performance in distinguishing between the classes based on probability outputs.
+### 11. Save the Model
+Save the model into pkl file for usage
