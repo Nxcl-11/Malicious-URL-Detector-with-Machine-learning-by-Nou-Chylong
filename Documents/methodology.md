@@ -1,6 +1,6 @@
 ## 6. Methodology
 
-### 1. Loading Libraries
+### 1. Load Libraries
 Necessary libraries were imported including `pandas`, `numpy`, `re`, `matplotlib`, `seaborn`, and relevant modules from `sklearn`.
 
 ### 2. Dataset Loading and Inspection
