@@ -68,5 +68,13 @@ Accuracy: 0.87                               Support: 164806
   2. Increase **recall for malicious class** to catch more threats that are currently missed.
 
 ---
+### Full Test Result
+Link: https://github.com/Nxcl-11/Malicious-URL-Detector-with-Machine-learning-by-Nou-Chylong/blob/main/Accuracy%20Output/Result.png
+
+### Confusion Metrix
+Link: https://github.com/Nxcl-11/Malicious-URL-Detector-with-Machine-learning-by-Nou-Chylong/blob/main/Accuracy%20Output/Confusion%20Matrix.png
+
+### Roc Curve
+Link: https://github.com/Nxcl-11/Malicious-URL-Detector-with-Machine-learning-by-Nou-Chylong/blob/main/Accuracy%20Output/ROC%20Curve.png
 
 
