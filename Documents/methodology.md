@@ -9,7 +9,7 @@ The dataset was loaded using Pandas and inspected using `df.info()` to understan
 ### 3. Class Distribution Visualization
 The class distribution was visualized using Seaborn's `countplot`.
 
-### Feature Engineering
+### 4. Feature Engineering
 Features were extracted using regular expressions and logical rules from URLs. Each URL was transformed into a set of numerical indicators and compiled into a `DataFrame`. These features include:
 - URL length
 - Number of digits
@@ -22,13 +22,10 @@ Features were extracted using regular expressions and logical rules from URLs. E
 - Domain length
 - Suspicious top-level domains (e.g., .ru, .xyz)
 
-### 4. Data Cleaning
+### 5. Data Cleaning
 - URLs shorter than 5 characters were removed.
 - Outliers in the `num_special_char` feature were winsorized by clipping values to a maximum of 30.
 - Missing values were checked and confirmed to be zero.
-
-### 5. Feature Scaling with Z-Score
-The predictor variables standardized using the Z-score method to normalize feature values and ensure balanced influence across features.
 
 ### 6. Train-Test Split
 The dataset was split into training and testing sets using a 70/30 ratio. The `random_state` was set to ensure reproducibility.
