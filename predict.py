@@ -33,3 +33,4 @@ prediction = model.predict(pd.DataFrame([features]))[0]
 
 # Output
 print("🔴 This URL is Malicious" if prediction == 1 else "🟢 This URL is Benign")
+print("Hello")
