@@ -69,12 +69,11 @@ Accuracy: 0.87                               Support: 164806
 
 ---
 ### Full Test Result
-Link: https://github.com/Nxcl-11/Malicious-URL-Detector-with-Machine-learning-by-Nou-Chylong/blob/main/Accuracy%20Output/Result.png
+Link: https://github.com/Nxcl-11/Malicious-URL-Detector-with-Machine-learning-by-Nou-Chylong/blob/main/Accuracy%20Output/Full%20Test%20Result.png
 
 ### Confusion Metrix
-Link: https://github.com/Nxcl-11/Malicious-URL-Detector-with-Machine-learning-by-Nou-Chylong/blob/main/Accuracy%20Output/Confusion%20Matrix.png
-
+Link: https://github.com/Nxcl-11/Malicious-URL-Detector-with-Machine-learning-by-Nou-Chylong/blob/main/Accuracy%20Output/Confusion_Matrix.png
 ### Roc Curve
-Link: https://github.com/Nxcl-11/Malicious-URL-Detector-with-Machine-learning-by-Nou-Chylong/blob/main/Accuracy%20Output/ROC%20Curve.png
+Link: https://github.com/Nxcl-11/Malicious-URL-Detector-with-Machine-learning-by-Nou-Chylong/blob/main/Accuracy%20Output/ROC_Curve.png
 
 
